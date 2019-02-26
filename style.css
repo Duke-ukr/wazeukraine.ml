@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: padding-box;
+
+}
+
+body,
+html {
+  height: 100%;
+  position: relative;
+  font-size: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+
+}
+
+.footer {
+  flex: 0 0 auto;
+  background-color: #F5F9FA;
+}
+
+.backImg {
+  background: url('./img/mainImage.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 550px;
+}
+
+figure {
+  border-bottom: 5px solid rgba(177, 167, 167, 0.5);
+  border-top: 5px solid rgba(177, 167, 167, 0.5);
+  border-radius: 20%;
+  background-color: rgba(27, 27, 27, 0.055)
+}
+
+figure:hover {
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20%;
+
+}
+
+.secondSlide {
+  min-height: 550px;
+  background-color: #F5F9FA;
+}
+
+.threeSlide {
+  min-height: 250px;
+}
+
+.borderBottom {
+  border-bottom: 2px solid rgba(177, 167, 167, 0.5);
+  border-radius: 20%;
+  background-color: rgba(245, 249, 250, 0.9);
+}
+
+.navbar-nav {
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+body>div>div.content>div.header>div>div>div>div>a {
+  width: 70px;
+}
+
+.sizeImg2Slide {
+  max-width: 90%;
+}
+
+.sizeImg3Slide {
+  max-width: 45%;
+}
+
+.padding58px {
+  padding-top: 58px;
+}
+
+.changeColor {
+  color: #007bff;
+  font-size: 5rem;
+
+}
+
+.btnCustomPadding {
+  padding: 5px;
+}
+.minWidth{
+  width: 154px;
+  margin-bottom: 5px;
+}
+.divSocialImg{
+  width: 154px;
+  height: 80px;
+}
+
+.myImgMarket{
+  height: 38px;
+  border-radius: 6px;
+}
+
